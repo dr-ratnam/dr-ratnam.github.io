@@ -1,0 +1,241 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+/* NAVIGATION */
+
+#mainNav {
+    border-color: rgba(34, 34, 34, 0.05);
+    background-color: white;
+    transition: all .35s;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #d16c1d;
+}
+
+#mainNav .navbar-brand {
+    color: #f7b103;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+    color: #d16c1d;
+}
+
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    padding: 8px 10px;
+    color: #d16c1d;
+}
+
+#mainNav .navbar-nav > li > a {
+    font-size: 12px;
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#mainNav .navbar-nav > li > a.active {
+    color: #e6a503 !important;
+    background-color: transparent;
+}
+  
+#mainNav .navbar-nav > li > a.active:hover {
+    background-color: transparent;
+}
+  
+#mainNav .navbar-nav > li > a, #mainNav .navbar-nav > li > a:focus {
+    color: #a45517;
+}
+  
+#mainNav .navbar-nav > li > a:hover, #mainNav .navbar-nav > li > a:focus:hover {
+    color: #f7b103;
+}
+
+/* HEADER */
+
+header.masthead {
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: white;
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F7971E, #FFD200);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F7971E, #FFD200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header.masthead .header-content {
+    max-width: 500px;
+    margin-bottom: 100px;
+}
+  
+header.masthead .header-content h1 {
+    font-size: 20px;
+    font-weight: 200;
+}
+  
+header.masthead .device-container {
+    max-width: 325px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  
+header.masthead .device-container .img-fluid {
+    border-radius: 3px;
+    max-width: 90%;
+
+    -webkit-box-shadow: 10px 10px 13px -7px rgba(255,255,255,0.56);
+    -moz-box-shadow: 10px 10px 13px -7px rgba(255,255,255,0.56);
+    box-shadow: 10px 10px 13px -7px rgba(255,255,255,0.56);
+}
+
+.btn {
+    border-radius: 300px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: transparent;
+}
+
+.btn-outline {
+    color: white;
+    border: 1px solid;
+    border-color: white;
+  }
+  
+  .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+    color: #d16c1d;
+    border-color: white;
+    background-color: white;
+  }
+  
+/* SECTIONS - GEN */
+
+section {
+    padding: 100px 0;
+}
+  
+section h2 {
+    font-size: 30px;
+}
+
+a {
+    color: #fdcc52;
+    transition: all .35s;
+}
+  
+a:hover, a:focus {
+    color: #fcbd20;
+}
+
+/* AUTHOR */
+
+#author-img {
+    max-width: 75%;
+}
+
+/* PURCHASE */
+
+section.buy {
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: white;
+    background: url("../images/bgbuycool.jpg");
+    background-size: cover;
+}
+
+.buy .container-fluid {
+    padding-bottom: 20px;
+}
+
+.online-store {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+hr {
+  margin: 25px auto 0;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.online-store a {
+    font-weight: 700;
+}
+
+.online-store a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* CONTACT */
+
+section.contact {
+    text-align: center;
+    background: #fcc12dda
+}
+
+section.contact h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+section.contact ul.list-social {
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+section.contact ul.list-social li a {
+    font-size: 40px;
+    line-height: 80px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    color: #0e173e;
+    border-radius: 100%;
+}
+
+section.contact ul.list-social li a:hover {
+    color: #0e173e9a;
+}
+
+section.contact ul.list-social li a:focus {
+    color: #0e173edc;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #0e173e;
+}
+
+footer p {
+    font-size: 12px;
+    margin: 0;
+}
