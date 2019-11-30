@@ -28,9 +28,6 @@ h1, h2, h3, h4 {
 
 #mainNav .navbar-brand {
     color: #f7b103;
-    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 400;
-    letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
@@ -40,30 +37,15 @@ h1, h2, h3, h4 {
 #mainNav .navbar-toggler {
     font-size: 12px;
     padding: 8px 10px;
-    color: #d16c1d;
 }
 
-#mainNav .navbar-nav > li > a {
-    font-size: 12px;
-    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-    text-transform: uppercase;
+#mainNav .navbar-nav li a {
+    font-size: 14px;
     letter-spacing: 2px;
-}
-
-#mainNav .navbar-nav > li > a.active {
-    color: #e6a503 !important;
-    background-color: transparent;
-}
-  
-#mainNav .navbar-nav > li > a.active:hover {
-    background-color: transparent;
-}
-  
-#mainNav .navbar-nav > li > a, #mainNav .navbar-nav > li > a:focus {
     color: #a45517;
 }
   
-#mainNav .navbar-nav > li > a:hover, #mainNav .navbar-nav > li > a:focus:hover {
+#mainNav .navbar-nav li a:hover {
     color: #f7b103;
 }
 
@@ -86,17 +68,20 @@ header.masthead .header-content {
 }
   
 header.masthead .header-content h1 {
-    font-size: 20px;
-    font-weight: 200;
+    text-transform: uppercase;
+}
+
+header.masthead .header-content h2 {
+    padding-bottom: 20px;
 }
   
-header.masthead .device-container {
+header.masthead .image-container {
     max-width: 325px;
     margin-right: auto;
     margin-left: auto;
 }
   
-header.masthead .device-container .img-fluid {
+header.masthead .image-container .img-fluid {
     border-radius: 3px;
     max-width: 90%;
 
@@ -118,11 +103,11 @@ header.masthead .device-container .img-fluid {
     border-color: white;
   }
   
-  .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+.btn-outline:hover, .btn-outline:active, .btn-outline.active {
     color: #d16c1d;
     border-color: white;
     background-color: white;
-  }
+}
   
 /* SECTIONS - GEN */
 
