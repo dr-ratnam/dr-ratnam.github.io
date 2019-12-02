@@ -71,6 +71,10 @@ header.masthead .header-content h1 {
     text-transform: uppercase;
 }
 
+.mb-5, .my-5 {
+    margin-bottom: 0.5rem !important;
+}
+
 header.masthead .header-content h2 {
     padding-bottom: 20px;
 }
@@ -93,20 +97,31 @@ header.masthead .image-container .img-fluid {
 .btn {
     border-radius: 300px;
     letter-spacing: 2px;
+    font-weight: 600;
     text-transform: uppercase;
-    background: transparent;
+    background: white;
+    color: #a45517;
+    border: 1px solid rgba(255, 255, 255, 0.863);
+}
+  
+.btn-outline:hover {
+    color: #d16c1d;
+    border-color: rgba(241, 156, 27, 0.432);
 }
 
-.btn-outline {
-    color: white;
-    border: 1px solid;
-    border-color: white;
-  }
-  
-.btn-outline:hover, .btn-outline:active, .btn-outline.active {
+.btn-outline:active {
     color: #d16c1d;
-    border-color: white;
-    background-color: white;
+    border-color: rgba(241, 165, 50, 0.432);
+}
+
+.btn-outline:focus {
+
+}
+
+.btn.focus, .btn:focus {
+    color: #fcbd20;
+    border-color: rgba(241, 165, 50, 0.432); 
+    box-shadow: none;
 }
   
 /* SECTIONS - GEN */

@@ -1,3 +1,3 @@
-$('.nav-item').on('click', function() {
-    $('.navbar-collapse').collapse('hide');
+$('#main').click(function(){
+    $(".navbar-collapse").collapse('hide');
 });
